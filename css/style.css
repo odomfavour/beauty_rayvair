@@ -7,16 +7,14 @@ body {
 /* navigation */
 
 .navbar {
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
-  background: rgba(0, 0, 0, 0.12) !important;
 }
 
 .navbar-brand {
   font-size: 24px;
-  color: #66fcf1 !important;
 }
 
 .navbar-nav li {
@@ -24,7 +22,7 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+  color: #000;
   padding-top: 0.8rem;
   font-size: 18px;
 }
