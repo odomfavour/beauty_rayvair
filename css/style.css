@@ -204,7 +204,7 @@ margin: 0 auto;
 }
 
 .centered {
-  padding: 0 15%;
+  /* padding: 0 15%; */
   flex-direction: column;
 }
 
@@ -256,6 +256,42 @@ footer {
     display: none;
   }
 
+  .discount-text input{
+    width: 214px;
+    height: 30px;
+  }
+
+  .discount-text p {
+    font-size: 24px;
+}
+
+.discount-text h1 {
+    font-size: 28px;
+}
+
+  .btn-black {
+    width: 95px;
+height: 30px;
+  }
+
+  .navbar-toggler {
+    border: 1px solid #FFDC9A !important;
+  }
+  .navbar-dark .navbar-toggler-icon  {
+    background-color: antiquewhite;
+  }
+
+  .header {
+    height: 388px;
+    padding-top: 300px;
+    background-position: center;
+  }
+
+  .header h2 {
+    font-weight: 500;
+  font-size: 16px;
+  }
+
   .header h1 {
     font-size: 24px;
   }
@@ -264,13 +300,42 @@ footer {
     height: 1103px
   }
 
+  .content {
+    max-width: 100%;
+  }
+
+  #creative-minds {
+    text-align: center;
+  }
+
   .provision-card {
     margin-bottom: 20px;
+    width: 315px;
+    height: 305px;
   }
   .title {
     font-size: 20px;
   }
  #creative-minds {
    height: 1734px;
+ }
+
+ #fem-bg {
+   height: 180px;
+   
+ }
+
+ #fem-bg h1 {
+   font-size: 20px;
+   padding: 40px 0;
+ }
+
+ .contact-section {
+       z-index: 7;
+    opacity: 0.8;
+ }
+
+ #contact .black-beauty {
+   margin-top: -390px;
  }
 }
